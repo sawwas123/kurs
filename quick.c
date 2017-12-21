@@ -9,12 +9,14 @@ int main (void) {
   for (i = 0; i < n; i++) {
     scanf("%d", &a[i]);
   }
+  printf("\n");
  
   quicksort(a, n);
  
   for (i = 0; i < n; i++) {
     printf("%d ", a[i]);
   }
+  printf("\n");
  
   return 0;
 }
